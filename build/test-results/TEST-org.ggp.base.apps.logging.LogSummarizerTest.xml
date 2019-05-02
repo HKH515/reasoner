@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ggp.base.apps.logging.LogSummarizerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-05-02T13:03:24" hostname="thinkingpad" time="0.276">
+  <properties/>
+  <testcase name="testBasicResponse" classname="org.ggp.base.apps.logging.LogSummarizerTest" time="0.121"/>
+  <testcase name="testStuckResponse" classname="org.ggp.base.apps.logging.LogSummarizerTest" time="0.154"/>
+  <system-out><![CDATA[1556802204702: Got request for logs for fake_match
+1556802204704: Got 38 bytes of logs for fake_match
+1556802204705: Successfully replied to log request for fake_match
+1556802204810: Got request for logs for fake_match
+]]></system-out>
+  <system-err><![CDATA[java.net.SocketException: Socket closed
+java.net.SocketException: Socket closed
+]]></system-err>
+</testsuite>

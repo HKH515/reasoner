@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/apps/logging/LogSummarizerTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/apps/tiltyard/TiltyardRequestFarmTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/player/gamer/clojure/ClojureGamerTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/player/gamer/python/PythonGamerTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/test/AllTests.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/test/NoTabsInRulesheetsTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/crypto/BaseCryptographyTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/crypto/BaseHashingTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/crypto/CanonicalJSONTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/crypto/SignableJSONTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/game/GameParsingTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/gdl/model/DependencyGraphsTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/gdl/model/SimpleSentenceFormTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/gdl/scrambler/GdlRendererTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/gdl/scrambler/GdlScramblerTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/gdl/transforms/GdlCleanerTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/http/HttpTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/presence/InfoResponseTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/util/statemachine/implementation/prover/ProverStateMachineTest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/test/java/org/ggp/base/validator/StaticValidationTest.java">
+</file>
+</checkstyle>

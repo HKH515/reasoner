@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/hannes/Documents/ggp-base/src/main/java/external/Base64Coder/Base64Coder.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/external/JSON/JSONArray.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/external/JSON/JSONException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/external/JSON/JSONObject.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/external/JSON/JSONString.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/external/JSON/JSONTokener.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/PropNetMove.java">
+<error line="16" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/ASPPropNetStructureFactory.java">
+<error line="40" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/BitSetIterator.java">
+<error line="8" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/ComponentFilter.java">
+<error line="5" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/DynamicPropnetOptimizer.java">
+<error line="29" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/GGPBasePropNetStructureFactory.java">
+<error line="33" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/LParseRules.java">
+<error line="27" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/PropNetStructure.java">
+<error line="39" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/PropNetStructureFactory.java">
+<error line="41" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/PropType.java">
+<error line="4" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/components/BaseProposition.java">
+<error line="13" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/components/StaticComponent.java">
+<error line="14" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/dynamic/DynamicComponent.java">
+<error line="20" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/dynamic/DynamicComponentPool.java">
+<error line="13" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/propnet/structure/dynamic/DynamicComponentSet.java">
+<error line="24" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/utils/DecoratedIterator.java">
+<error line="7" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/is/ru/cadia/ggp/utils/IOUtils.java">
+<error line="12" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/benchmark/EndgameCaseGenerator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/benchmark/ImportSanchoCases.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/benchmark/PlayerTester.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/benchmark/PlayerTesterCases.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/consoles/ClojureConsole.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/consoles/PythonConsole.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/GameCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/GameGUI.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/Kiosk.java">
+<error line="143" column="17" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/KioskGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/MoveSelectedEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/BattleCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/BiddingTicTacToeCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/BlockerCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/BlokboxSimpleCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/BreakthroughCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/BreakthroughHolesCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/BreakthroughSmallCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/CephalopodCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/CheckersCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/CheckersSmallCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/CheckersTinyCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/ChessCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/ChickenTicTacToeCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/ConnectFiveCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/ConnectFourCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/FFACanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/GoldenRectangleCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/KnightFightCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/KnightthroughCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/NumberTicTacToeCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/PawnWhoppingCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/PentagoCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/TTCC4Canvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/TTCC4SmallCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/TTCCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/TTTxNineCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/TicTacToeCanvas.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/games/TicTacToeCanvas_Reference.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/templates/CommonGraphics.java">
+<error line="26" column="9" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/templates/GameCanvas_Chessboard.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/templates/GameCanvas_FancyGrid.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/kiosk/templates/GameCanvas_SimpleGrid.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/logging/ExampleLogSummarizer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/logging/LogSummarizer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/Player.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/PlayerRunner.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/ProxiedPlayerRunner.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/config/ConfigPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/config/EmptyConfigPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/detail/DetailPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/detail/EmptyDetailPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/detail/SimpleDetailPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/match/MatchPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/player/network/NetworkPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/research/Aggregation.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/research/Counter.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/research/FrequencyTable.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/research/Histogram.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/research/MatchArchiveProcessor.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/research/WeightedAverage.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/Server.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/error/ErrorPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/history/HistoryPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/leaderboard/LeaderboardPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/scheduling/PendingMatch.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/scheduling/Scheduler.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/scheduling/SchedulingPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/states/StatesPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/visualization/VisualizationPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/server/visualization/VizContainerPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/tiltyard/TiltyardRequestFarm.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/utilities/GameServerRunner.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/utilities/SimpleGameSim.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/validator/BatchValidator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/validator/OutcomePanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/validator/Validator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/validator/ValidatorThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/validator/event/ValidatorFailureEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/apps/validator/event/ValidatorSuccessEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/GamePlayer.java">
+<error line="85" column="5" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/event/PlayerDroppedPacketEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/event/PlayerReceivedMessageEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/event/PlayerSentMessageEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/event/PlayerTimeEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/Gamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/clojure/ClojureGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/clojure/stubs/SampleClojureGamerStub.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/event/GamerAbortedMatchEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/event/GamerCompletedMatchEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/event/GamerNewMatchEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/event/GamerSelectedMoveEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/event/GamerUnrecognizedMatchEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/exception/AbortingException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/exception/GamePreviewException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/exception/MetaGamingException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/exception/MoveSelectionException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/exception/StoppingException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/python/PythonGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/python/stubs/SamplePythonGamerStub.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/StateMachineGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/human/HumanGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/human/event/HumanNewMovesEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/human/event/HumanTimeoutEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/human/gui/HumanDetailPanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/random/RandomGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/sample/SampleAlphabetGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/sample/SampleGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/sample/SampleMonteCarloGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/sample/SampleNoopGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/gamer/statemachine/sample/SampleSearchLightGamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/proxy/ProxyGamePlayer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/proxy/ProxyGamePlayerClient.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/proxy/ProxyMessage.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/proxy/WorkingResponseSelectedEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/factory/RequestFactory.java">
+<error line="70" column="1" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/factory/exceptions/RequestFormatException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/grammar/AbortRequest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/grammar/InfoRequest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/grammar/PlayRequest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/grammar/PreviewRequest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/grammar/Request.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/grammar/StartRequest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/player/request/grammar/StopRequest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/GameServer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerAbortedMatchEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerCompletedMatchEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerConnectionErrorEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerIllegalMoveEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerMatchUpdatedEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerNewGameStateEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerNewMatchEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerNewMovesEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerTimeEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/event/ServerTimeoutEvent.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/request/RequestBuilder.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/threads/AbortRequestThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/threads/PlayRequestThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/threads/PreviewRequestThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/threads/RandomPlayRequestThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/threads/RequestThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/threads/StartRequestThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/server/threads/StopRequestThread.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/Pair.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/concurrency/ConcurrencyUtils.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/configuration/GamerConfiguration.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/configuration/ProjectConfiguration.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/crypto/BaseCryptography.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/crypto/BaseHashing.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/crypto/CanonicalJSON.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/crypto/SignableJSON.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/files/FileUtils.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/game/CloudGameRepository.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/game/Game.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/game/GameRepository.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/game/LocalGameRepository.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/game/RemoteGameRepository.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/game/TestGameRepository.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/GdlUtils.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/GdlValidator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/GdlVisitor.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/GdlVisitors.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/factory/GdlFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/factory/exceptions/GdlFormatException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/Gdl.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlConstant.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlDistinct.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlFunction.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlLiteral.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlNot.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlOr.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlPool.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlProposition.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlRelation.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlRule.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlSentence.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlTerm.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/grammar/GdlVariable.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/AbstractSentenceDomainModel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/AbstractSentenceForm.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/CartesianSentenceFormDomain.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/DependencyGraphs.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/FullSentenceFormDomain.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/GameFlow.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/GameFlowTester.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/ImmutableSentenceDomainModel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/ImmutableSentenceFormModel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceDomainModel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceDomainModelFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceDomainModelOptimizer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceDomainModels.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceForm.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceFormDomain.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceFormModel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceFormModelFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceForms.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceFormsFinder.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SentenceModelUtils.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/SimpleSentenceForm.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/AddibleFunctionInfo.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/AssignmentFunction.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/AssignmentIterationPlan.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/AssignmentIterator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/AssignmentIteratorImpl.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/Assignments.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/AssignmentsFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/AssignmentsImpl.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/FunctionInfo.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/FunctionInfoImpl.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/FunctionInfos.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/IterationOrderCandidate.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/model/assignments/MutableFunctionInfo.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/scrambler/GdlRenderer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/scrambler/GdlScrambler.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/scrambler/MappingGdlScrambler.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/scrambler/NoOpGdlScrambler.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/scrambler/WordList.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/CommonTransforms.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/CondensationIsolator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/ConstantChecker.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/ConstantCheckerFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/DeORer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/DistinctAndNotMover.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/GdlCleaner.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/ImmutableConstantChecker.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/Relationizer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/TransformTester.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/VariableConstrainer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/standalone/StandaloneDeORer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/gdl/transforms/standalone/StandaloneVariableConstrainer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/http/HttpReader.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/http/HttpRequest.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/http/HttpWriter.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/loader/RemoteResourceLoader.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/logging/GamerLogger.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/logging/LogSummaryGenerator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/match/Match.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/match/MatchPublisher.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/observer/Event.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/observer/Observer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/observer/Subject.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/presence/InfoResponse.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/presence/PlayerPresence.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/presence/PlayerPresenceManager.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/Component.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/PropNet.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/components/And.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/components/Constant.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/components/Not.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/components/Or.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/components/Proposition.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/architecture/components/Transition.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/factory/LegacyPropNetFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/factory/OptimizingPropNetFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/factory/annotater/PropNetAnnotater.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/factory/converter/PropNetConverter.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/factory/flattener/PropNetAnnotatedFlattener.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/propnet/factory/flattener/PropNetFlattener.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/Prover.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/aima/AimaProver.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/aima/cache/ProverCache.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/aima/knowledge/KnowledgeBase.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/aima/renamer/VariableRenamer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/aima/substituter/Substituter.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/aima/substitution/Substitution.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/prover/aima/unifier/Unifier.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/reasoner/DifferentialForwardChainingReasoner.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/reasoner/ForwardChainingReasoner.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/reasoner/gdl/GdlChainingReasoner.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/reasoner/gdl/GdlSentenceSet.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/reflection/ProjectSearcher.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/FailsafeStateMachine.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/MachineState.java">
+<error line="22" column="5" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/Move.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/Role.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/SimpleMachineState.java">
+<error line="11" column="5" severity="warning" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/StateMachine.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/cache/CachedStateMachine.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/cache/TtlCache.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/exceptions/GoalDefinitionException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/exceptions/MoveDefinitionException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/exceptions/TransitionDefinitionException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/implementation/propnet/SamplePropNetStateMachine.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/implementation/prover/ProverStateMachine.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/implementation/prover/query/ProverQueryBuilder.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/implementation/prover/result/ProverResultParser.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/statemachine/verifier/StateMachineVerifier.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/symbol/factory/SymbolFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/symbol/factory/exceptions/SymbolFormatException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/symbol/grammar/Symbol.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/symbol/grammar/SymbolAtom.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/symbol/grammar/SymbolList.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/symbol/grammar/SymbolPool.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/ChainingReplacedElementFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/CloseableTabs.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/ConsolePanel.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/GameSelector.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/GameStateRenderer.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/JLabelBold.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/JLabelHyperlink.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/NativeUI.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/PlayerSelector.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/PublishButton.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/SVGReplacedElementFactory.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/table/JZebraTable.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/util/ui/timer/JTimerBar.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/validator/BasesInputsValidator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/validator/GameValidator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/validator/OPNFValidator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/validator/SimulationValidator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/validator/StaticValidator.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/validator/ValidatorException.java">
+</file>
+<file name="/home/hannes/Documents/ggp-base/src/main/java/org/ggp/base/validator/ValidatorWarning.java">
+</file>
+</checkstyle>
