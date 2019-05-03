@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-05-02T13:03:24" hostname="thinkingpad" time="0.037">
+<testsuite name="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:55:01" hostname="thinkingpad" time="0.047">
   <properties/>
-  <testcase name="testDistinctAtBeginningOfRule" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.001"/>
-  <testcase name="testProverOnTicTacToe" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.015"/>
-  <testcase name="testCase1A" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.004"/>
-  <testcase name="testCase3C" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.002"/>
-  <testcase name="testCase5A" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.001"/>
+  <testcase name="testDistinctAtBeginningOfRule" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.002"/>
+  <testcase name="testProverOnTicTacToe" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.02"/>
+  <testcase name="testCase1A" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.001"/>
+  <testcase name="testCase3C" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.003"/>
+  <testcase name="testCase5A" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.002"/>
   <testcase name="testCase5B" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.001"/>
-  <testcase name="testCase5C" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.003"/>
+  <testcase name="testCase5C" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.002"/>
   <testcase name="testCase5D" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.001"/>
-  <testcase name="testCase5E" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.006"/>
-  <system-out><![CDATA[[( reduce a 0 ), ( reduce c 2 ), ( reduce c 4 ), ( reduce c 0 ), ( reduce c 1 ), ( reduce c 3 ), ( reduce a 1 )]
+  <testcase name="testCase5E" classname="org.ggp.base.util.statemachine.implementation.prover.ProverStateMachineTest" time="0.011"/>
+  <system-out><![CDATA[[( reduce c 4 ), ( reduce a 1 ), ( reduce c 2 ), ( reduce c 3 ), ( reduce a 0 ), ( reduce c 1 ), ( reduce c 0 )]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.util.http.HttpTest" tests="6" skipped="1" failures="0" errors="0" timestamp="2019-05-02T13:03:24" hostname="thinkingpad" time="0.019">
+<testsuite name="org.ggp.base.util.http.HttpTest" tests="6" skipped="1" failures="0" errors="0" timestamp="2019-05-03T16:55:01" hostname="thinkingpad" time="0.028">
   <properties/>
-  <testcase name="testSimpleEcho" classname="org.ggp.base.util.http.HttpTest" time="0.009"/>
-  <testcase name="testSimpleEchoWithHeaders" classname="org.ggp.base.util.http.HttpTest" time="0.001"/>
+  <testcase name="testSimpleEcho" classname="org.ggp.base.util.http.HttpTest" time="0.011"/>
+  <testcase name="testSimpleEchoWithHeaders" classname="org.ggp.base.util.http.HttpTest" time="0.002"/>
   <testcase name="testGenericPOSTsWithoutContentLength" classname="org.ggp.base.util.http.HttpTest" time="0.0">
     <skipped/>
   </testcase>

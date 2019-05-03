@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.util.gdl.model.DependencyGraphsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-02T13:03:09" hostname="thinkingpad" time="0.016">
+<testsuite name="org.ggp.base.util.gdl.model.DependencyGraphsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:54:43" hostname="thinkingpad" time="0.021">
   <properties/>
-  <testcase name="testSafeToposort" classname="org.ggp.base.util.gdl.model.DependencyGraphsTest" time="0.016"/>
+  <testcase name="testSafeToposort" classname="org.ggp.base.util.gdl.model.DependencyGraphsTest" time="0.021"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

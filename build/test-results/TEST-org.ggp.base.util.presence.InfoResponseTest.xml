@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.util.presence.InfoResponseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-05-02T13:03:24" hostname="thinkingpad" time="0.005">
+<testsuite name="org.ggp.base.util.presence.InfoResponseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:55:01" hostname="thinkingpad" time="0.005">
   <properties/>
-  <testcase name="testParsingInfoResponseWithNoInfo" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.002"/>
+  <testcase name="testParsingInfoResponseWithNoInfo" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.001"/>
   <testcase name="testParsingStatusOnlyInfoResponse" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.0"/>
   <testcase name="testParsingInfoResponse" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.0"/>
   <testcase name="testParsingInfoResponseLegacyJSON" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.0"/>
   <testcase name="testParsingBadlyFormedInfoResponse" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.0"/>
-  <testcase name="testParsingInfoResponseWithNoStatus" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.0"/>
+  <testcase name="testParsingInfoResponseWithNoStatus" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.001"/>
   <testcase name="testFormingInfoResponse" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.0"/>
-  <testcase name="testParsingInfoResponseWithExtras" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.001"/>
+  <testcase name="testParsingInfoResponseWithExtras" classname="org.ggp.base.util.presence.InfoResponseTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

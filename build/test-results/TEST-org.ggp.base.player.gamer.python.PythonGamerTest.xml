@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.player.gamer.python.PythonGamerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-02T13:03:24" hostname="thinkingpad" time="1.965">
+<testsuite name="org.ggp.base.player.gamer.python.PythonGamerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:55:01" hostname="thinkingpad" time="2.78">
   <properties/>
-  <testcase name="testPythonGamer" classname="org.ggp.base.player.gamer.python.PythonGamerTest" time="1.965"/>
+  <testcase name="testPythonGamer" classname="org.ggp.base.player.gamer.python.PythonGamerTest" time="2.78"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
