@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.util.gdl.scrambler.GdlRendererTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:54:43" hostname="thinkingpad" time="1.438">
+<testsuite name="org.ggp.base.util.gdl.scrambler.GdlRendererTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-05T15:32:15" hostname="thinkingpad" time="1.062">
   <properties/>
-  <testcase name="testSimpleRendering" classname="org.ggp.base.util.gdl.scrambler.GdlRendererTest" time="1.438"/>
+  <testcase name="testSimpleRendering" classname="org.ggp.base.util.gdl.scrambler.GdlRendererTest" time="1.062"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

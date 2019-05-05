@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.player.gamer.clojure.ClojureGamerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:54:42" hostname="thinkingpad" time="0.714">
+<testsuite name="org.ggp.base.player.gamer.clojure.ClojureGamerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-05T15:32:14" hostname="thinkingpad" time="0.78">
   <properties/>
-  <testcase name="testClojureGamer" classname="org.ggp.base.player.gamer.clojure.ClojureGamerTest" time="0.714"/>
+  <testcase name="testClojureGamer" classname="org.ggp.base.player.gamer.clojure.ClojureGamerTest" time="0.78"/>
   <system-out><![CDATA[SampleClojureGamer metagame called
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

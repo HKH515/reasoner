@@ -15,13 +15,20 @@ public class CustomMachineState extends MachineState {
 
     public final BitSet bs;
     public final BitSet observedBs;
-    private PropNetStructure structure;
+    public PropNetStructure structure;
 
     public CustomMachineState(PropNetStructure structure) {
         super();
         this.bs = new BitSet();
         this.observedBs = new BitSet();
         this.structure = structure;
+    }
+
+    public CustomMachineState(PropNetStructure structure, BitSet bs, BitSet observedBs) {
+        super();
+        this.structure = structure;
+        this.bs = bs;
+        this.observedBs = observedBs;
     }
 
     public void set(int key, Boolean value) {
@@ -56,7 +63,7 @@ public class CustomMachineState extends MachineState {
 
     // Very likely that this isnt working
     @Override
-    public MachineState clone() {
-        return new CustomMachineState(structure);
+    public CustomMachineState clone() {
+        return new CustomMachineState(this.structure, this.bs, this.observedBs);
     }
 }

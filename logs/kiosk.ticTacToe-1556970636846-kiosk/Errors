@@ -1,0 +1,21 @@
+LOG 1556970637558 [L9]: <ERR> (in GamePlayer) java.lang.NullPointerException
+	at is.ru.hannes.CustomPropNetStateMachine.getInitialState(CustomPropNetStateMachine.java:167)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.switchStateMachine(StateMachineGamer.java:130)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:38)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1556970648677 [L9]: <ERR> (in GamePlayer) java.lang.NullPointerException
+	at is.ru.hannes.CustomPropNetStateMachine.getInitialState(CustomPropNetStateMachine.java:167)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.switchStateMachine(StateMachineGamer.java:130)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:38)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1556970648723 [L9]: <ERR> (in GamePlayer) java.lang.NullPointerException
+	at is.ru.hannes.CustomPropNetStateMachine.getInitialState(CustomPropNetStateMachine.java:167)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.switchStateMachine(StateMachineGamer.java:130)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:38)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)

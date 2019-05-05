@@ -1,0 +1,60 @@
+LOG 1557075281536 [L0]: [Received at 1557075281535] ( START kiosk.ticTacToe-1557075281405 xplayer (( role xplayer ) ( role oplayer ) ( index 1 ) ( index 2 ) ( index 3 ) ( <= ( base ( cell ?x ?y b ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y x ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y o ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( control ?p ) ) ( role ?p ) ) ( <= ( input ?p ( mark ?x ?y ) ) ( index ?x ) ( index ?y ) ( role ?p ) ) ( <= ( input ?p noop ) ( role ?p ) ) ( init ( cell 1 1 b ) ) ( init ( cell 1 2 b ) ) ( init ( cell 1 3 b ) ) ( init ( cell 2 1 b ) ) ( init ( cell 2 2 b ) ) ( init ( cell 2 3 b ) ) ( init ( cell 3 1 b ) ) ( init ( cell 3 2 b ) ) ( init ( cell 3 3 b ) ) ( init ( control xplayer ) ) ( <= ( next ( cell ?m ?n x ) ) ( does xplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n o ) ) ( does oplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n ?w ) ) ( true ( cell ?m ?n ?w ) ) ( distinct ?w b ) ) ( <= ( next ( cell ?m ?n b ) ) ( does ?w ( mark ?j ?k ) ) ( true ( cell ?m ?n b ) ) ( or ( distinct ?m ?j ) ( distinct ?n ?k ) ) ) ( <= ( next ( control xplayer ) ) ( true ( control oplayer ) ) ) ( <= ( next ( control oplayer ) ) ( true ( control xplayer ) ) ) ( <= ( row ?m ?x ) ( true ( cell ?m 1 ?x ) ) ( true ( cell ?m 2 ?x ) ) ( true ( cell ?m 3 ?x ) ) ) ( <= ( column ?n ?x ) ( true ( cell 1 ?n ?x ) ) ( true ( cell 2 ?n ?x ) ) ( true ( cell 3 ?n ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 1 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 3 ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 3 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 1 ?x ) ) ) ( <= ( line ?x ) ( row ?m ?x ) ) ( <= ( line ?x ) ( column ?m ?x ) ) ( <= ( line ?x ) ( diagonal ?x ) ) ( <= open ( true ( cell ?m ?n b ) ) ) ( <= ( legal ?w ( mark ?x ?y ) ) ( true ( cell ?x ?y b ) ) ( true ( control ?w ) ) ) ( <= ( legal xplayer noop ) ( true ( control oplayer ) ) ) ( <= ( legal oplayer noop ) ( true ( control xplayer ) ) ) ( <= ( goal xplayer 100 ) ( line x ) ) ( <= ( goal xplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal xplayer 0 ) ( line o ) ) ( <= ( goal oplayer 100 ) ( line o ) ) ( <= ( goal oplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal oplayer 0 ) ( line x ) ) ( <= terminal ( line x ) ) ( <= terminal ( line o ) ) ( <= terminal ( not open ) ) ) 30 10)
+LOG 1557075281546 [L0]: [Received at 1557075281546] ( START kiosk.ticTacToe-1557075281405 oplayer (( role xplayer ) ( role oplayer ) ( index 1 ) ( index 2 ) ( index 3 ) ( <= ( base ( cell ?x ?y b ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y x ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y o ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( control ?p ) ) ( role ?p ) ) ( <= ( input ?p ( mark ?x ?y ) ) ( index ?x ) ( index ?y ) ( role ?p ) ) ( <= ( input ?p noop ) ( role ?p ) ) ( init ( cell 1 1 b ) ) ( init ( cell 1 2 b ) ) ( init ( cell 1 3 b ) ) ( init ( cell 2 1 b ) ) ( init ( cell 2 2 b ) ) ( init ( cell 2 3 b ) ) ( init ( cell 3 1 b ) ) ( init ( cell 3 2 b ) ) ( init ( cell 3 3 b ) ) ( init ( control xplayer ) ) ( <= ( next ( cell ?m ?n x ) ) ( does xplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n o ) ) ( does oplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n ?w ) ) ( true ( cell ?m ?n ?w ) ) ( distinct ?w b ) ) ( <= ( next ( cell ?m ?n b ) ) ( does ?w ( mark ?j ?k ) ) ( true ( cell ?m ?n b ) ) ( or ( distinct ?m ?j ) ( distinct ?n ?k ) ) ) ( <= ( next ( control xplayer ) ) ( true ( control oplayer ) ) ) ( <= ( next ( control oplayer ) ) ( true ( control xplayer ) ) ) ( <= ( row ?m ?x ) ( true ( cell ?m 1 ?x ) ) ( true ( cell ?m 2 ?x ) ) ( true ( cell ?m 3 ?x ) ) ) ( <= ( column ?n ?x ) ( true ( cell 1 ?n ?x ) ) ( true ( cell 2 ?n ?x ) ) ( true ( cell 3 ?n ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 1 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 3 ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 3 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 1 ?x ) ) ) ( <= ( line ?x ) ( row ?m ?x ) ) ( <= ( line ?x ) ( column ?m ?x ) ) ( <= ( line ?x ) ( diagonal ?x ) ) ( <= open ( true ( cell ?m ?n b ) ) ) ( <= ( legal ?w ( mark ?x ?y ) ) ( true ( cell ?x ?y b ) ) ( true ( control ?w ) ) ) ( <= ( legal xplayer noop ) ( true ( control oplayer ) ) ) ( <= ( legal oplayer noop ) ( true ( control xplayer ) ) ) ( <= ( goal xplayer 100 ) ( line x ) ) ( <= ( goal xplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal xplayer 0 ) ( line o ) ) ( <= ( goal oplayer 100 ) ( line o ) ) ( <= ( goal oplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal oplayer 0 ) ( line x ) ) ( <= terminal ( line x ) ) ( <= terminal ( line o ) ) ( <= terminal ( not open ) ) ) 30 10)
+LOG 1557075281575 [L0]: [Sent at 1557075281575] ready
+LOG 1557075281980 [L0]: [Sent at 1557075281980] ready
+LOG 1557075281988 [L0]: [Received at 1557075281988] ( PLAY kiosk.ticTacToe-1557075281405 NIL )
+LOG 1557075281993 [L0]: [Received at 1557075281987] ( PLAY kiosk.ticTacToe-1557075281405 NIL )
+LOG 1557075282007 [L0]: [Sent at 1557075282007] noop
+LOG 1557075282817 [L0]: [Sent at 1557075282817] ( mark 3 3 )
+LOG 1557075282826 [L0]: [Received at 1557075282826] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 3 3 ) noop ) )
+LOG 1557075282834 [L0]: [Received at 1557075282833] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 3 3 ) noop ) )
+LOG 1557075282847 [L0]: [Sent at 1557075282847] noop
+LOG 1557075282888 [L0]: [Received at 1557075282888] ( PLAY kiosk.ticTacToe-1557075281405 (noop ( mark 3 1 ) ) )
+LOG 1557075282887 [L0]: [Sent at 1557075282886] noop
+LOG 1557075282905 [L0]: [Received at 1557075282905] ( PLAY kiosk.ticTacToe-1557075281405 (noop ( mark 3 1 ) ) )
+LOG 1557075282935 [L0]: [Sent at 1557075282935] noop
+LOG 1557075287100 [L0]: [Sent at 1557075287100] ( mark 1 2 )
+LOG 1557075287105 [L0]: [Received at 1557075287105] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 1 2 ) noop ) )
+LOG 1557075287109 [L0]: [Received at 1557075287107] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 1 2 ) noop ) )
+LOG 1557075287129 [L0]: [Sent at 1557075287129] noop
+LOG 1557075287140 [L0]: [Sent at 1557075287140] noop
+LOG 1557075287148 [L0]: [Received at 1557075287148] ( PLAY kiosk.ticTacToe-1557075281405 (noop ( mark 2 2 ) ) )
+LOG 1557075287156 [L0]: [Received at 1557075287156] ( PLAY kiosk.ticTacToe-1557075281405 (noop ( mark 2 2 ) ) )
+LOG 1557075287184 [L0]: [Sent at 1557075287184] noop
+LOG 1557075312041 [L0]: [Sent at 1557075312041] ( mark 1 3 )
+LOG 1557075312053 [L0]: [Received at 1557075312053] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 1 3 ) noop ) )
+LOG 1557075312059 [L0]: [Received at 1557075312058] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 1 3 ) noop ) )
+LOG 1557075312084 [L0]: [Sent at 1557075312084] noop
+LOG 1557075312096 [L0]: [Received at 1557075312094] ( PLAY kiosk.ticTacToe-1557075281405 (noop ( mark 1 1 ) ) )
+LOG 1557075312098 [L6]: [Waiting for currentMatchHandler at 1557075312098] because we got a message for match kiosk.ticTacToe-1557075281405
+LOG 1557075312092 [L0]: [Sent at 1557075312092] noop
+LOG 1557075312103 [L0]: [Received at 1557075312094] ( PLAY kiosk.ticTacToe-1557075281405 (noop ( mark 1 1 ) ) )
+LOG 1557075312131 [L0]: [Sent at 1557075312131] noop
+LOG 1557075314435 [L0]: [Sent at 1557075314435] ( mark 3 2 )
+LOG 1557075314449 [L0]: [Received at 1557075314444] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 3 2 ) noop ) )
+LOG 1557075314452 [L0]: [Received at 1557075314451] ( PLAY kiosk.ticTacToe-1557075281405 (( mark 3 2 ) noop ) )
+LOG 1557075314488 [L0]: [Sent at 1557075314488] noop
+LOG 1557075314510 [L0]: [Sent at 1557075314510] noop
+LOG 1557075314529 [L0]: [Received at 1557075314529] ( STOP kiosk.ticTacToe-1557075281405 (noop ( mark 2 1 ) ) )
+LOG 1557075314532 [L0]: [Received at 1557075314529] ( STOP kiosk.ticTacToe-1557075281405 (noop ( mark 2 1 ) ) )
+LOG 1557075314560 [L0]: [Sent at 1557075314560] done
+LOG 1557075314601 [L9]: <ERR> java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.LinkedList.checkElementIndex(LinkedList.java:555)
+	at java.util.LinkedList.get(LinkedList.java:476)
+	at is.ru.hannes.CustomPropNetStateMachine.getGoal(CustomPropNetStateMachine.java:170)
+	at org.ggp.base.util.statemachine.StateMachine.getGoals(StateMachine.java:283)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.stop(StateMachineGamer.java:247)
+	at org.ggp.base.player.request.grammar.StopRequest.process(StopRequest.java:50)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1557075314606 [L9]: <ERR> An unhandled exception ocurred during stopping: org.ggp.base.player.gamer.exception.StoppingException: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.stop(StateMachineGamer.java:255)
+	at org.ggp.base.player.request.grammar.StopRequest.process(StopRequest.java:50)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+Caused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.LinkedList.checkElementIndex(LinkedList.java:555)
+	at java.util.LinkedList.get(LinkedList.java:476)
+	at is.ru.hannes.CustomPropNetStateMachine.getGoal(CustomPropNetStateMachine.java:170)
+	at org.ggp.base.util.statemachine.StateMachine.getGoals(StateMachine.java:283)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.stop(StateMachineGamer.java:247)
+	... 2 more
+LOG 1557075314611 [L0]: [Sent at 1557075314611] done

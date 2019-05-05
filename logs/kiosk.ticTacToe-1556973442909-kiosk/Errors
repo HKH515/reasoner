@@ -1,0 +1,30 @@
+LOG 1556973444979 [L9]: <ERR> (in GamePlayer) java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1556973444983 [L9]: <ERR> (in GamePlayer) An unhandled exception ocurred during move selection: org.ggp.base.player.gamer.exception.MoveSelectionException: java.lang.IllegalArgumentException: bound must be positive
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:227)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	... 2 more
+LOG 1556973445047 [L9]: <ERR> (in GamePlayer) java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1556973445050 [L9]: <ERR> (in GamePlayer) An unhandled exception ocurred during move selection: org.ggp.base.player.gamer.exception.MoveSelectionException: java.lang.IllegalArgumentException: bound must be positive
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:227)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	... 2 more

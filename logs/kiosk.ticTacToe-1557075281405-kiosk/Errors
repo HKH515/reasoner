@@ -1,0 +1,19 @@
+LOG 1557075314603 [L9]: <ERR> (in GamePlayer) java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.LinkedList.checkElementIndex(LinkedList.java:555)
+	at java.util.LinkedList.get(LinkedList.java:476)
+	at is.ru.hannes.CustomPropNetStateMachine.getGoal(CustomPropNetStateMachine.java:170)
+	at org.ggp.base.util.statemachine.StateMachine.getGoals(StateMachine.java:283)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.stop(StateMachineGamer.java:247)
+	at org.ggp.base.player.request.grammar.StopRequest.process(StopRequest.java:50)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1557075314607 [L9]: <ERR> (in GamePlayer) An unhandled exception ocurred during stopping: org.ggp.base.player.gamer.exception.StoppingException: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.stop(StateMachineGamer.java:255)
+	at org.ggp.base.player.request.grammar.StopRequest.process(StopRequest.java:50)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+Caused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.LinkedList.checkElementIndex(LinkedList.java:555)
+	at java.util.LinkedList.get(LinkedList.java:476)
+	at is.ru.hannes.CustomPropNetStateMachine.getGoal(CustomPropNetStateMachine.java:170)
+	at org.ggp.base.util.statemachine.StateMachine.getGoals(StateMachine.java:283)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.stop(StateMachineGamer.java:247)
+	... 2 more

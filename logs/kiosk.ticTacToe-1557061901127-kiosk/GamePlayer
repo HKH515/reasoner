@@ -1,0 +1,82 @@
+LOG 1557061901144 [L0]: [Received at 1557061901143] ( START kiosk.ticTacToe-1557061901127 xplayer (( role xplayer ) ( role oplayer ) ( index 1 ) ( index 2 ) ( index 3 ) ( <= ( base ( cell ?x ?y b ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y x ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y o ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( control ?p ) ) ( role ?p ) ) ( <= ( input ?p ( mark ?x ?y ) ) ( index ?x ) ( index ?y ) ( role ?p ) ) ( <= ( input ?p noop ) ( role ?p ) ) ( init ( cell 1 1 b ) ) ( init ( cell 1 2 b ) ) ( init ( cell 1 3 b ) ) ( init ( cell 2 1 b ) ) ( init ( cell 2 2 b ) ) ( init ( cell 2 3 b ) ) ( init ( cell 3 1 b ) ) ( init ( cell 3 2 b ) ) ( init ( cell 3 3 b ) ) ( init ( control xplayer ) ) ( <= ( next ( cell ?m ?n x ) ) ( does xplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n o ) ) ( does oplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n ?w ) ) ( true ( cell ?m ?n ?w ) ) ( distinct ?w b ) ) ( <= ( next ( cell ?m ?n b ) ) ( does ?w ( mark ?j ?k ) ) ( true ( cell ?m ?n b ) ) ( or ( distinct ?m ?j ) ( distinct ?n ?k ) ) ) ( <= ( next ( control xplayer ) ) ( true ( control oplayer ) ) ) ( <= ( next ( control oplayer ) ) ( true ( control xplayer ) ) ) ( <= ( row ?m ?x ) ( true ( cell ?m 1 ?x ) ) ( true ( cell ?m 2 ?x ) ) ( true ( cell ?m 3 ?x ) ) ) ( <= ( column ?n ?x ) ( true ( cell 1 ?n ?x ) ) ( true ( cell 2 ?n ?x ) ) ( true ( cell 3 ?n ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 1 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 3 ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 3 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 1 ?x ) ) ) ( <= ( line ?x ) ( row ?m ?x ) ) ( <= ( line ?x ) ( column ?m ?x ) ) ( <= ( line ?x ) ( diagonal ?x ) ) ( <= open ( true ( cell ?m ?n b ) ) ) ( <= ( legal ?w ( mark ?x ?y ) ) ( true ( cell ?x ?y b ) ) ( true ( control ?w ) ) ) ( <= ( legal xplayer noop ) ( true ( control oplayer ) ) ) ( <= ( legal oplayer noop ) ( true ( control xplayer ) ) ) ( <= ( goal xplayer 100 ) ( line x ) ) ( <= ( goal xplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal xplayer 0 ) ( line o ) ) ( <= ( goal oplayer 100 ) ( line o ) ) ( <= ( goal oplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal oplayer 0 ) ( line x ) ) ( <= terminal ( line x ) ) ( <= terminal ( line o ) ) ( <= terminal ( not open ) ) ) 30 10)
+LOG 1557061901144 [L0]: [Received at 1557061901143] ( START kiosk.ticTacToe-1557061901127 oplayer (( role xplayer ) ( role oplayer ) ( index 1 ) ( index 2 ) ( index 3 ) ( <= ( base ( cell ?x ?y b ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y x ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( cell ?x ?y o ) ) ( index ?x ) ( index ?y ) ) ( <= ( base ( control ?p ) ) ( role ?p ) ) ( <= ( input ?p ( mark ?x ?y ) ) ( index ?x ) ( index ?y ) ( role ?p ) ) ( <= ( input ?p noop ) ( role ?p ) ) ( init ( cell 1 1 b ) ) ( init ( cell 1 2 b ) ) ( init ( cell 1 3 b ) ) ( init ( cell 2 1 b ) ) ( init ( cell 2 2 b ) ) ( init ( cell 2 3 b ) ) ( init ( cell 3 1 b ) ) ( init ( cell 3 2 b ) ) ( init ( cell 3 3 b ) ) ( init ( control xplayer ) ) ( <= ( next ( cell ?m ?n x ) ) ( does xplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n o ) ) ( does oplayer ( mark ?m ?n ) ) ( true ( cell ?m ?n b ) ) ) ( <= ( next ( cell ?m ?n ?w ) ) ( true ( cell ?m ?n ?w ) ) ( distinct ?w b ) ) ( <= ( next ( cell ?m ?n b ) ) ( does ?w ( mark ?j ?k ) ) ( true ( cell ?m ?n b ) ) ( or ( distinct ?m ?j ) ( distinct ?n ?k ) ) ) ( <= ( next ( control xplayer ) ) ( true ( control oplayer ) ) ) ( <= ( next ( control oplayer ) ) ( true ( control xplayer ) ) ) ( <= ( row ?m ?x ) ( true ( cell ?m 1 ?x ) ) ( true ( cell ?m 2 ?x ) ) ( true ( cell ?m 3 ?x ) ) ) ( <= ( column ?n ?x ) ( true ( cell 1 ?n ?x ) ) ( true ( cell 2 ?n ?x ) ) ( true ( cell 3 ?n ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 1 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 3 ?x ) ) ) ( <= ( diagonal ?x ) ( true ( cell 1 3 ?x ) ) ( true ( cell 2 2 ?x ) ) ( true ( cell 3 1 ?x ) ) ) ( <= ( line ?x ) ( row ?m ?x ) ) ( <= ( line ?x ) ( column ?m ?x ) ) ( <= ( line ?x ) ( diagonal ?x ) ) ( <= open ( true ( cell ?m ?n b ) ) ) ( <= ( legal ?w ( mark ?x ?y ) ) ( true ( cell ?x ?y b ) ) ( true ( control ?w ) ) ) ( <= ( legal xplayer noop ) ( true ( control oplayer ) ) ) ( <= ( legal oplayer noop ) ( true ( control xplayer ) ) ) ( <= ( goal xplayer 100 ) ( line x ) ) ( <= ( goal xplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal xplayer 0 ) ( line o ) ) ( <= ( goal oplayer 100 ) ( line o ) ) ( <= ( goal oplayer 50 ) ( not ( line x ) ) ( not ( line o ) ) ( not open ) ) ( <= ( goal oplayer 0 ) ( line x ) ) ( <= terminal ( line x ) ) ( <= terminal ( line o ) ) ( <= terminal ( not open ) ) ) 30 10)
+LOG 1557061901179 [L0]: [Sent at 1557061901179] ready
+LOG 1557061901383 [L0]: [Sent at 1557061901383] ready
+LOG 1557061901395 [L0]: [Received at 1557061901395] ( PLAY kiosk.ticTacToe-1557061901127 NIL )
+LOG 1557061901396 [L0]: [Received at 1557061901395] ( PLAY kiosk.ticTacToe-1557061901127 NIL )
+LOG 1557061901428 [L0]: [Sent at 1557061901428] ( mark 2 1 )
+LOG 1557061901429 [L0]: [Received at 1557061901428] ( PLAY kiosk.ticTacToe-1557061901127 (( mark 2 1 ) noop ) )
+LOG 1557061901434 [L6]: [Waiting for currentMatchHandler at 1557061901434] because we got a message for match kiosk.ticTacToe-1557061901127
+LOG 1557061901434 [L0]: [Sent at 1557061901434] noop
+LOG 1557061901440 [L0]: [Received at 1557061901439] ( PLAY kiosk.ticTacToe-1557061901127 (( mark 2 1 ) noop ) )
+LOG 1557061901454 [L0]: [Sent at 1557061901454] noop
+LOG 1557061902908 [L0]: [Sent at 1557061902908] ( mark 2 2 )
+LOG 1557061902916 [L0]: [Received at 1557061902915] ( PLAY kiosk.ticTacToe-1557061901127 (noop ( mark 2 2 ) ) )
+LOG 1557061902919 [L0]: [Received at 1557061902918] ( PLAY kiosk.ticTacToe-1557061901127 (noop ( mark 2 2 ) ) )
+LOG 1557061902931 [L9]: <ERR> java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1557061902928 [L0]: [Sent at 1557061902928] noop
+LOG 1557061902935 [L9]: <ERR> An unhandled exception ocurred during move selection: org.ggp.base.player.gamer.exception.MoveSelectionException: java.lang.IllegalArgumentException: bound must be positive
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:227)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	... 2 more
+LOG 1557061902940 [L0]: [Sent at 1557061902940] nil
+LOG 1557061902950 [L0]: [Received at 1557061902950] ( PLAY kiosk.ticTacToe-1557061901127 (( mark 3 3 ) noop ) )
+LOG 1557061902960 [L0]: [Received at 1557061902959] ( PLAY kiosk.ticTacToe-1557061901127 (( mark 3 3 ) noop ) )
+LOG 1557061902959 [L0]: [Sent at 1557061902959] noop
+LOG 1557061911093 [L0]: [Sent at 1557061911093] ( mark 1 2 )
+LOG 1557061911100 [L0]: [Received at 1557061911100] ( PLAY kiosk.ticTacToe-1557061901127 (noop ( mark 1 2 ) ) )
+LOG 1557061911102 [L0]: [Received at 1557061911102] ( PLAY kiosk.ticTacToe-1557061901127 (noop ( mark 1 2 ) ) )
+LOG 1557061911104 [L9]: <ERR> java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1557061911105 [L9]: <ERR> An unhandled exception ocurred during move selection: org.ggp.base.player.gamer.exception.MoveSelectionException: java.lang.IllegalArgumentException: bound must be positive
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:227)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	... 2 more
+LOG 1557061911113 [L0]: [Sent at 1557061911113] nil
+LOG 1557061911122 [L0]: [Sent at 1557061911122] noop
+LOG 1557061911132 [L0]: [Received at 1557061911132] ( PLAY kiosk.ticTacToe-1557061901127 (( mark 1 1 ) noop ) )
+LOG 1557061911136 [L0]: [Received at 1557061911135] ( PLAY kiosk.ticTacToe-1557061901127 (( mark 1 1 ) noop ) )
+LOG 1557061911139 [L0]: [Sent at 1557061911139] noop
+LOG 1557061913690 [L0]: [Sent at 1557061913690] ( mark 1 3 )
+LOG 1557061913697 [L0]: [Received at 1557061913696] ( PLAY kiosk.ticTacToe-1557061901127 (noop ( mark 1 3 ) ) )
+LOG 1557061913704 [L0]: [Received at 1557061913703] ( PLAY kiosk.ticTacToe-1557061901127 (noop ( mark 1 3 ) ) )
+LOG 1557061913708 [L9]: <ERR> java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+LOG 1557061913709 [L9]: <ERR> An unhandled exception ocurred during move selection: org.ggp.base.player.gamer.exception.MoveSelectionException: java.lang.IllegalArgumentException: bound must be positive
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:227)
+	at org.ggp.base.player.request.grammar.PlayRequest.process(PlayRequest.java:49)
+	at org.ggp.base.player.GamePlayer$ConnectionHandler.run(GamePlayer.java:136)
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:351)
+	at is.ru.hannes.CustomGamer.stateMachineSelectMove(CustomGamer.java:44)
+	at org.ggp.base.player.gamer.statemachine.StateMachineGamer.selectMove(StateMachineGamer.java:222)
+	... 2 more
+LOG 1557061913716 [L0]: [Sent at 1557061913716] nil
+LOG 1557061913732 [L0]: [Sent at 1557061913732] noop
+LOG 1557061913740 [L0]: [Received at 1557061913740] ( STOP kiosk.ticTacToe-1557061901127 (( mark 3 1 ) noop ) )
+LOG 1557061913755 [L0]: [Sent at 1557061913755] done
+LOG 1557061913757 [L0]: [Received at 1557061913756] ( STOP kiosk.ticTacToe-1557061901127 (( mark 3 1 ) noop ) )
+LOG 1557061913773 [L0]: [Sent at 1557061913773] done

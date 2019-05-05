@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.validator.StaticValidationTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:55:04" hostname="thinkingpad" time="0.258">
+<testsuite name="org.ggp.base.validator.StaticValidationTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2019-05-05T15:32:36" hostname="thinkingpad" time="0.172">
   <properties/>
-  <testcase name="test1BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.021"/>
-  <testcase name="test2BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.011"/>
-  <testcase name="test3BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.027"/>
-  <testcase name="test5BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.002"/>
-  <testcase name="test3DValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.009"/>
-  <testcase name="testTicTacToeValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.03"/>
-  <testcase name="test3FValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.005"/>
-  <testcase name="testSimpleMutexValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.03"/>
-  <testcase name="testSentenceAritiesDiffer" classname="org.ggp.base.validator.StaticValidationTest" time="0.005"/>
+  <testcase name="test1BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.007"/>
+  <testcase name="test2BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.019"/>
+  <testcase name="test3BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.011"/>
+  <testcase name="test5BValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.003"/>
+  <testcase name="test3DValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.003"/>
+  <testcase name="testTicTacToeValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.011"/>
+  <testcase name="test3FValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.004"/>
+  <testcase name="testSimpleMutexValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.016"/>
+  <testcase name="testSentenceAritiesDiffer" classname="org.ggp.base.validator.StaticValidationTest" time="0.003"/>
   <testcase name="test1AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.003"/>
-  <testcase name="test2AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.004"/>
-  <testcase name="test3AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.01"/>
-  <testcase name="test4AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.016"/>
-  <testcase name="test5AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.004"/>
-  <testcase name="test2CValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.016"/>
-  <testcase name="testConn4Validation" classname="org.ggp.base.validator.StaticValidationTest" time="0.017"/>
-  <testcase name="test3CValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.002"/>
-  <testcase name="testFunctionAritiesDiffer" classname="org.ggp.base.validator.StaticValidationTest" time="0.004"/>
-  <testcase name="testCleanNotDistinctValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.009"/>
-  <testcase name="test5CValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.004"/>
-  <testcase name="test3EValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.007"/>
+  <testcase name="test2AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.006"/>
+  <testcase name="test3AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.005"/>
+  <testcase name="test4AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.001"/>
+  <testcase name="test5AValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.012"/>
+  <testcase name="test2CValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.012"/>
+  <testcase name="testConn4Validation" classname="org.ggp.base.validator.StaticValidationTest" time="0.019"/>
+  <testcase name="test3CValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.005"/>
+  <testcase name="testFunctionAritiesDiffer" classname="org.ggp.base.validator.StaticValidationTest" time="0.003"/>
+  <testcase name="testCleanNotDistinctValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.007"/>
+  <testcase name="test5CValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.003"/>
+  <testcase name="test3EValidation" classname="org.ggp.base.validator.StaticValidationTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

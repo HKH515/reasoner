@@ -36,11 +36,13 @@ public final class CustomGamer extends StateMachineGamer
         long start = System.currentTimeMillis();
 
         List<Move> moves = getStateMachine().getLegalMoves(getCurrentState(), getRole());
-        Move selection = (moves.get(ThreadLocalRandom.current().nextInt(moves.size())));
+        System.out.println("moves size in CustomGamer: " + moves.size());
+        Move selection = moves.get(0);//(moves.get(ThreadLocalRandom.current().nextInt(moves.size())));
+        System.out.println("CustomGamer chooses move " + selection);
 
         long stop = System.currentTimeMillis();
 
-        notifyObservers(new GamerSelectedMoveEvent(moves, selection, stop - start));
+        //notifyObservers(new GamerSelectedMoveEvent(moves, selection, stop - start));
         return selection;
     }
 

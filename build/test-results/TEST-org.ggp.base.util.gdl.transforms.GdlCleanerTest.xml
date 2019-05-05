@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.util.gdl.transforms.GdlCleanerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:54:43" hostname="thinkingpad" time="0.071">
+<testsuite name="org.ggp.base.util.gdl.transforms.GdlCleanerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-05T15:32:15" hostname="thinkingpad" time="0.068">
   <properties/>
-  <testcase name="testCleanNotDistinct" classname="org.ggp.base.util.gdl.transforms.GdlCleanerTest" time="0.071"/>
+  <testcase name="testCleanNotDistinct" classname="org.ggp.base.util.gdl.transforms.GdlCleanerTest" time="0.068"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

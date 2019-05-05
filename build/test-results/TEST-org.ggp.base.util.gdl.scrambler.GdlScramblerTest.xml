@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-05-03T16:54:44" hostname="thinkingpad" time="16.367">
+<testsuite name="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-05-05T15:32:16" hostname="thinkingpad" time="17.017">
   <properties/>
-  <testcase name="testNoOpScrambler" classname="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" time="2.564"/>
-  <testcase name="testMappingScrambler" classname="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" time="6.25"/>
-  <testcase name="testMappingScramblerConsistency" classname="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" time="7.551"/>
+  <testcase name="testNoOpScrambler" classname="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" time="2.797"/>
+  <testcase name="testMappingScrambler" classname="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" time="6.67"/>
+  <testcase name="testMappingScramblerConsistency" classname="org.ggp.base.util.gdl.scrambler.GdlScramblerTest" time="7.549"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
