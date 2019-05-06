@@ -153,13 +153,8 @@ public class CustomPropNetStateMachine extends StateMachine {
             reason(goals[i], state);
             if (((CustomMachineState) state).get(goals[i].id)) {
                 metGoals.add(i);
-                // if there are many goals, throw exception, as per javadoc of function
-                if (metGoals.size() > 1) {
-                    //throw new GoalDefinitionException();
-                }
             }
         }
-        //System.out.println(goalValues[metGoals.get(0)]);
         return goalValues[metGoals.get(0)];
     }
 
@@ -233,7 +228,6 @@ public MachineState getNextState(MachineState state, List<Move> moves)
         reason(bp.nextComponent, state_clone);
         // Apply that truth value to the current bitset entry in the next state, as the truth value in the next component in the current bitset
         nextState.set(bp.id, state_clone.get(bp.nextComponent.id));
-        System.out.println("bp: " + bp + ", nextState: " + nextState);
     }
 
     return nextState;
