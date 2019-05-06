@@ -35,6 +35,7 @@ import is.ru.cadia.ggp.propnet.structure.components.StaticComponent.Type;
 
 import java.io.File;
 import java.util.List;
+import java.util.BitSet;
 
 import org.ggp.base.util.game.Game;
 import org.ggp.base.util.statemachine.MachineState;
@@ -62,52 +63,40 @@ public class CustomPropNetStateMachine extends StateMachine {
         }
     }
 
-    public Boolean reason(StaticComponent component, MachineState state, List<Move> moves) {
+    public void reason(StaticComponent component, MachineState state) {
         // If we've already computed the value
         if (((CustomMachineState) state).observed(component.id)) {
-            return ((CustomMachineState) state).get(component.id);
+            return;
         }
 
         // Base cases
         if (component.type == Type.TRUE) {
-            return true;
+            ((CustomMachineState) state).set(component.id, true);
+            return;
         }
         else if (component.type == Type.FALSE) {
-            return false;
+            ((CustomMachineState) state).set(component.id, false);
+            return;
         }
         else if (component.type == Type.PIPE) {
             int predId = component.inputs[0];
-            Boolean predValue = reason(this.structure.getComponent(predId), state, null);
-            ((CustomMachineState) state).set(predId, predValue);
-            return predValue;
+            reason(this.structure.getComponent(predId), state);
+            ((CustomMachineState) state).set(component.id, ((CustomMachineState) state).get(predId));
+            return;
         }
         else if (component.type == Type.NOT) {
             int predId = component.inputs[0];
-            Boolean predValue = !reason(this.structure.getComponent(predId), state, null);
-            ((CustomMachineState) state).set(predId, predValue);
-            return predValue;
+            reason(this.structure.getComponent(predId), state);
+            ((CustomMachineState) state).set(component.id, !((CustomMachineState) state).get(predId));
+            return;
         }
         else if (component.type == Type.INPUT) {
-            if (moves != null && moves.size() > 0) {
-                for (Move m : moves) {
-                    if (((PropNetMove) m).getInputComponent().id == component.id) {
-                        ((CustomMachineState) state).set(component.id, true);
-                        return true;
-                    }
-                }
-            //return false;
-            }
-            System.out.println(component);
-            return true;
+            return;
         }
         else if (component.type == Type.INIT) {
-            if (moves == null || moves.size() == 0) {
-                ((CustomMachineState) state).set(component.id, true);
-                return true;
-            }
-            return false;
+            return;
         }
-
+        assert component.type != Type.BASE;
 
         // Below are cases where there are many input nodes, and not just 1
 
@@ -118,20 +107,21 @@ public class CustomPropNetStateMachine extends StateMachine {
             pValue = true;
             for (int predId : component.inputs) {
                 StaticComponent pred = this.structure.getComponent(predId);
-                Boolean predValue = reason(pred, state, null);
-                pValue &= predValue;
-                ((CustomMachineState) state).set(predId, predValue);
+                reason(pred, state);
+                pValue &= ((CustomMachineState) state).get(predId);
             }
+            ((CustomMachineState) state).set(component.id, pValue);
+            return;
         }
         else if (component.type == Type.OR) {
             for (int predId : component.inputs) {
                 StaticComponent pred = this.structure.getComponent(predId);
-                Boolean predValue = reason(pred, state, null);
-                pValue |= predValue;
-                ((CustomMachineState) state).set(predId, predValue);
+                reason(pred, state);
+                pValue |= ((CustomMachineState) state).get(predId);
             }
+            ((CustomMachineState) state).set(component.id, pValue);
+            return;
         }
-        return pValue;
     }
 
     /**
@@ -141,7 +131,8 @@ public class CustomPropNetStateMachine extends StateMachine {
     @Override
     public boolean isTerminal(MachineState state) {
         // TODO: Compute whether the MachineState is terminal.
-        return reason(this.structure.getTerminalProposition(), state, null); 
+        reason(this.structure.getTerminalProposition(), state);
+        return (((CustomMachineState) state).get(this.structure.getTerminalProposition().id));
     }
 
     /**
@@ -159,7 +150,8 @@ public class CustomPropNetStateMachine extends StateMachine {
         int[] goalValues = this.structure.getGoalValues(this.structure.getRoleId(role));
         List<Integer> metGoals = new LinkedList<Integer>();
         for (int i = 0; i < goals.length ; i++) {
-            if (reason(goals[i], state, null)) {
+            reason(goals[i], state);
+            if (((CustomMachineState) state).get(goals[i].id)) {
                 metGoals.add(i);
                 // if there are many goals, throw exception, as per javadoc of function
                 if (metGoals.size() > 1) {
@@ -167,7 +159,7 @@ public class CustomPropNetStateMachine extends StateMachine {
                 }
             }
         }
-        System.out.println(goalValues[metGoals.get(0)]);
+        //System.out.println(goalValues[metGoals.get(0)]);
         return goalValues[metGoals.get(0)];
     }
 
@@ -195,19 +187,19 @@ public class CustomPropNetStateMachine extends StateMachine {
     public List<Move> getLegalMoves(MachineState state, Role role)
             throws MoveDefinitionException {
         // TODO: Compute legal moves.
-        //System.out.println("Computing legal moves for " + role);
+
+
+        MachineState state_clone = state.clone();
+
+
         PropNetMove[] moves = this.structure.getPossibleMoves(this.structure.getRoleId(role));
         List<Move> legalMoves = new LinkedList<Move>();
         for (PropNetMove m : moves) {
-                //System.out.println("Processing legalComponent " + m.getLegalComponent() + " of " + m);
-            // I dont think the moves parameter is needed when calling reason here
-            //System.out.println("legal component for " + m + " is " + m.getLegalComponent());
-            if (reason(m.getLegalComponent(), state, null)) {
-                legalMoves.add((Move) m);
-                //System.out.println("Move " + m + " is legal");
+            reason(m.getLegalComponent(), state_clone);
+            if (((CustomMachineState) state_clone).get(m.getLegalComponent().id)) {
+                legalMoves.add(m);
             }
             else {
-                //System.out.println("Move " + m + " is not legal");
             }
         }
         return legalMoves;
@@ -219,28 +211,29 @@ public class CustomPropNetStateMachine extends StateMachine {
 @Override
 public MachineState getNextState(MachineState state, List<Move> moves)
         throws TransitionDefinitionException {
-    CustomMachineState nextState = ((CustomMachineState) state).clone();
+    // We create a clone state of state, as we do not want to mutate state
+    CustomMachineState state_clone = new CustomMachineState(this.structure);
+    CustomMachineState nextState = new CustomMachineState(this.structure);
 
-    nextState = clearInputs(nextState);
 
-
-    // set the moves' inputcomponents in state_copy to be set to true
+    // Set the clone's input components as the same as the original
     for (int i = 0; i < moves.size(); i++) {
-        System.out.println(moves.get(i));
         PropNetMove pMove = this.structure.getPropNetMove(i, moves.get(i));
-        nextState.set(pMove.getInputComponent().id, true);
-    }
-    
-
-    for (BaseProposition bp : this.structure.getBasePropositions()) {
-        reason(bp.nextComponent, nextState, moves);
-        //nextState.set(bp.nextComponent.id, reason(bp.nextComponent, state_copy, moves));
+        state_clone.set(pMove.getInputComponent().id, true);
     }
 
+    // Set base propositions of the clone to be the same as the original
     for (BaseProposition bp : this.structure.getBasePropositions()) {
-        if (reason(bp, nextState, null)) {
-            System.out.println("In next state, " + bp + " is true");
-        }
+        state_clone.set(bp.id, ((CustomMachineState) state).get(bp.id));
+    }
+
+    // This leads to every baseprop being true in nextState
+    for (BaseProposition bp : this.structure.getBasePropositions()) {
+        // Compute truth value for the base props next component using the state clone
+        reason(bp.nextComponent, state_clone);
+        // Apply that truth value to the current bitset entry in the next state, as the truth value in the next component in the current bitset
+        nextState.set(bp.id, state_clone.get(bp.nextComponent.id));
+        System.out.println("bp: " + bp + ", nextState: " + nextState);
     }
 
     return nextState;
@@ -278,9 +271,32 @@ private CustomMachineState clearInputs(CustomMachineState state) {
         CustomPropNetStateMachine stateMachine = new CustomPropNetStateMachine(); // insert your own machine here
         stateMachine.initialize(ggpBaseGame.getRules());
 
-        List<Role> roles = stateMachine.getRoles();
-        List<Move> legalMoves = stateMachine.getLegalMoves(stateMachine.getInitialState(), roles.get(0));
+
         MachineState s0 = stateMachine.getInitialState();
-        System.out.println("Initial state is terminal: " + stateMachine.isTerminal(s0));
+	    List<Move> aJointMove = stateMachine.getLegalJointMoves(s0).get(0);
+	    System.out.println("Legal joint moves: " + stateMachine.getLegalJointMoves(s0));
+	    System.out.println("Doing move " + aJointMove);
+	    MachineState s1 = stateMachine.getNextState(s0, aJointMove);
+	    System.out.println(s1);
+
+        List<Move> aJointMove1 = stateMachine.getLegalJointMoves(s1).get(0);
+        System.out.println("Legal joint moves: " + stateMachine.getLegalJointMoves(s1));
+        System.out.println("Doing move " + aJointMove1);
+        MachineState s2 = stateMachine.getNextState(s1, aJointMove1);
+        System.out.println(s2);
+
+        List<Move> aJointMove2 = stateMachine.getLegalJointMoves(s2).get(0);
+        System.out.println("Legal joint moves: " + stateMachine.getLegalJointMoves(s2));
+        System.out.println("Doing move " + aJointMove2);
+        MachineState s3 = stateMachine.getNextState(s2, aJointMove2);
+        System.out.println(s3);
+
+        List<Move> aJointMove3 = stateMachine.getLegalJointMoves(s3).get(0);
+        System.out.println("Legal joint moves: " + stateMachine.getLegalJointMoves(s3));
+        System.out.println("Doing move " + aJointMove3);
+        MachineState s4 = stateMachine.getNextState(s3, aJointMove3);
+        System.out.println(s4);
+
+
     }
 }

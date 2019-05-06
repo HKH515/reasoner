@@ -14,7 +14,7 @@ import is.ru.cadia.ggp.propnet.structure.components.BaseProposition;
 public class CustomMachineState extends MachineState {
 
     public final BitSet bs;
-    public final BitSet observedBs;
+    public BitSet observedBs;
     public PropNetStructure structure;
 
     public CustomMachineState(PropNetStructure structure) {

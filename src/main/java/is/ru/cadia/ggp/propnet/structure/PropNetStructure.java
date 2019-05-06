@@ -157,6 +157,7 @@ public class PropNetStructure implements Serializable {
 		this.terminalProposition = terminalProposition;
 
 		this.isCyclic = isCyclic;
+		this.renderToFile(new File("/home/hannes/Documents/reasoner/graph.dot"));
 	}
 
 //	private void checkInfluencedComponents(BaseProposition p) {
